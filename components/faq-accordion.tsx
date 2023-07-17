@@ -15,10 +15,10 @@ const FAQAccordion = () => {
     <Accordion type="single" collapsible className="w-full">
       {items?.map((item) => (
         <AccordionItem key={item.id} value={item.id} className="w-full">
-          <AccordionTrigger className="w-full text-sm font-semibold text-primary-foreground">
+          <AccordionTrigger className="w-full text-start text-sm font-semibold text-primary-foreground">
             {item.q}
           </AccordionTrigger>
-          <AccordionContent className="w-full text-sm">
+          <AccordionContent className="w-full text-start text-sm">
             {item.a}
           </AccordionContent>
         </AccordionItem>
