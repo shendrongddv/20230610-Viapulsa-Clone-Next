@@ -29,7 +29,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "min-h-screen overflow-x-hidden scroll-smooth bg-[#FAFBFC] antialiased",
+          "min-h-screen bg-[#FAFBFC] antialiased",
           fontBody.variable,
           fontDisplay.variable
         )}

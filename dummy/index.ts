@@ -1,3 +1,11 @@
+import {
+  FaInstagram,
+  FaTiktok,
+  FaYoutube,
+  FaLinkedinIn,
+  FaFacebookF,
+} from "react-icons/fa";
+
 // Navigation
 export const navigationLinks = [
   {
@@ -14,6 +22,96 @@ export const navigationLinks = [
     id: 3,
     label: "FAQ",
     href: "#faq",
+  },
+];
+
+// Footer Links
+export const footerLinks = [
+  {
+    id: 1,
+    title: "Tentang Viapulsa",
+    links: [
+      {
+        id: 1,
+        label: "About Us",
+        href: "/",
+      },
+      {
+        id: 2,
+        label: "Privacy Policy",
+        href: "/",
+      },
+      {
+        id: 3,
+        label: "Help",
+        href: "/",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Panduan",
+    links: [
+      {
+        id: 1,
+        label: "Convert Pulsa ke Dana",
+        href: "/",
+      },
+      {
+        id: 2,
+        label: "Convert Pulsa ke Ovo",
+        href: "/",
+      },
+      {
+        id: 3,
+        label: "Convert Pulsa ke GoPay",
+        href: "/",
+      },
+      {
+        id: 4,
+        label: "Convert Pulsa ke ShopeePay",
+        href: "/",
+      },
+      {
+        id: 5,
+        label: "Convert Pulsa ke LinkAja",
+        href: "/",
+      },
+    ],
+  },
+];
+
+// Social Links
+export const socialLinks = [
+  {
+    id: 1,
+    label: "TikTok",
+    href: "/",
+    icon: FaTiktok,
+  },
+  {
+    id: 2,
+    label: "Instagram",
+    href: "/",
+    icon: FaInstagram,
+  },
+  {
+    id: 3,
+    label: "YouTube",
+    href: "/",
+    icon: FaYoutube,
+  },
+  {
+    id: 4,
+    label: "LinkedIn",
+    href: "/",
+    icon: FaLinkedinIn,
+  },
+  {
+    id: 5,
+    label: "Facebook",
+    href: "/",
+    icon: FaFacebookF,
   },
 ];
 
