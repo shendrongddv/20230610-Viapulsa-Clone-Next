@@ -384,43 +384,43 @@ export const pertanyaanPertanyaan = [
 // Comments
 export const comments = [
   {
-    id: "1",
+    id: 1,
     name: "Budi Santoso",
     gender: "men",
     body: "Aplikasi ini luar biasa! Ini memiliki segala yang saya butuhkan dan lebih. Saya sangat merekomendasikannya kepada siapa saja yang mencari aplikasi hebat.",
   },
   {
-    id: "2",
+    id: 2,
     name: "Sari Wijaya",
     gender: "women",
     body: "Saya sangat suka aplikasi ini! Sangat mudah digunakan dan memiliki semua fitur yang saya butuhkan. Saya pasti akan merekomendasikannya kepada teman-teman saya.",
   },
   {
-    id: "3",
+    id: 3,
     name: "Joko Susilo",
     gender: "men",
     body: "Aplikasi ini fantastis! Ini membantu saya tetap terorganisir dan terdepan. Saya pasti akan merekomendasikannya kepada siapa saja yang mencari aplikasi hebat.",
   },
   {
-    id: "4",
+    id: 4,
     name: "Ani Kusuma",
     gender: "women",
     body: "Saya tidak percaya betapa hebatnya aplikasi ini! Ini telah membuat hidup saya jauh lebih mudah. Saya pasti akan merekomendasikannya kepada siapa saja yang mencari aplikasi hebat.",
   },
   {
-    id: "5",
+    id: 5,
     name: "Hadi Pranoto",
     gender: "men",
     body: "Aplikasi ini yang terbaik! Ini memiliki segala yang saya butuhkan dan lebih. Saya pasti akan merekomendasikannya kepada siapa saja yang mencari aplikasi hebat.",
   },
   {
-    id: "6",
+    id: 6,
     name: "Dewi Lestari",
     gender: "women",
     body: '"Saya sangat senang menemukan aplikasi ini! Ini telah membuat hidup saya jauh lebih mudah. Saya pasti akan merekomendasikannya kepada siapa saja yang mencari aplikasi hebat."',
   },
   {
-    id: "7",
+    id: 7,
     name: "Agus Setiawan",
     gender: "men",
     body: '"Aplikasi ini luar biasa! Ini membantu saya tetap terorganisir dan terdepan. Saya pasti akan merekomendasikannya kepada siapa saja yang mencari aplikasi hebat."',
