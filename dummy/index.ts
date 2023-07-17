@@ -1,16 +1,19 @@
 // Navigation
 export const navigationLinks = [
   {
-    name: "Rate",
-    href: "/rate",
+    id: 1,
+    label: "Rate",
+    href: "#rate",
   },
   {
-    name: "Tutorial Convert",
-    href: "/tutorial-convert",
+    id: 2,
+    label: "Tutorial Convert",
+    href: "#tutorial-convert",
   },
   {
-    name: "FAQ",
-    href: "/faq",
+    id: 3,
+    label: "FAQ",
+    href: "#faq",
   },
 ];
 

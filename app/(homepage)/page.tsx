@@ -46,6 +46,7 @@ export default function Home() {
 
               <Link
                 href="/"
+                aria-label="Convert Pulsa Sekarang!"
                 className={cn(
                   buttonVariants({
                     variant: "default",
@@ -91,11 +92,11 @@ export default function Home() {
               {/* ## */}
               <div className="z-20 flex flex-col-reverse items-center gap-8 text-center md:flex-row md:items-center md:justify-center md:text-start">
                 {/* ### */}
-                <div className="md:w-1/3">
+                <div className="w-full md:w-1/3">
                   <Image
                     src={imgSection2}
                     alt="Image"
-                    className="h-auto w-full"
+                    className="mx-auto h-auto w-4/5 md:h-auto md:w-full"
                   />
                 </div>
 
@@ -139,7 +140,7 @@ export default function Home() {
               </h2>
 
               {/* # */}
-              <div className="mt-10">
+              <div className="mt-10 w-full">
                 <RateCard />
               </div>
             </div>
@@ -167,7 +168,7 @@ export default function Home() {
       {/* ./ Why Us */}
 
       {/* How To */}
-      <section id="how-to" className="bg-slate-100 px-4 py-16">
+      <section id="tutorial-convert" className="bg-slate-100 px-4 py-16">
         <div className="container">
           <div className="flex flex-col items-center gap-12">
             {/* # */}
