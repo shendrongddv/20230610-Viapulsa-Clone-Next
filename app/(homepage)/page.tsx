@@ -18,6 +18,7 @@ import RateCard from "@/components/rate-card";
 import WhyUsCard from "@/components/why-us-card";
 import HowToCard from "@/components/how-to-card";
 import PaymentCard from "@/components/payment-card";
+import FAQAccordion from "@/components/faq-accordion";
 
 export default function Home() {
   return (
@@ -116,13 +117,13 @@ export default function Home() {
             </div>
 
             {/* # */}
-            <div className="w-full">
-              <LogoClouds />
+            <div className="mt-8 w-full">
+              <CommentSlider />
             </div>
 
             {/* # */}
             <div className="w-full">
-              <CommentSlider />
+              <LogoClouds />
             </div>
           </div>
         </div>
@@ -289,11 +290,14 @@ export default function Home() {
       {/* FAQs */}
       <section id="faq" className="px-4 py-16">
         <div className="container">
-          <div className="mx-auto flex flex-col items-center gap-12 md:w-3/4">
+          <div className="mx-auto flex flex-col items-center gap-10 md:w-3/5">
             {/* # */}
             <h2 className="h2 text-center font-extrabold text-primary-foreground">
               FAQ
             </h2>
+            <div className="w-full">
+              <FAQAccordion />
+            </div>
           </div>
         </div>
       </section>

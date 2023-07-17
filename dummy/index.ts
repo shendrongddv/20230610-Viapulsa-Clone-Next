@@ -335,47 +335,47 @@ export const paymenyMethod = [
 // FAQ
 export const pertanyaanPertanyaan = [
   {
-    id: 1,
+    id: "1",
     q: "Apa itu convert pulsa",
     a: "Convert pulsa adalah cara menukar sejumlah pulsa menjadi uang/saldo e-wallet dengan rate yang tersedia di perusahaan jasa tukar pulsa.",
   },
   {
-    id: 2,
+    id: "2",
     q: "Apa itu rate convert pulsa?",
     a: "Rate adalah ketentuan harga jual pulsa. Bagaimana cara menghitungnya? Misalnya, kamu ingin convert pulsa Indosat senilai Rp1 juta dengan contoh rate terkini 0,80. ",
   },
   {
-    id: 3,
+    id: "3",
     q: "Apakah Viapulsa melayani convert 24 jam?",
     a: "Iya, layanan convert pulsa di Viapulsa online 24 jam tanpa istirahat.",
   },
   {
-    id: 4,
+    id: "4",
     q: "Apakah proses convert pulsa di Viapulsa mudah?",
     a: "Iya, kamu bisa convert pulsa lewat aplikasi hanya dalam hitungan 5-10 menit di Viapulsa.",
   },
   {
-    id: 5,
+    id: "5",
     q: "Apakah Viapulsa aman dan terpercaya?",
     a: "Viapulsa sudah berbadan hukum dengan aplikasi yang sudah di-download 1 juta orang lebih. Jadi, kamu bisa bertransaksi secara aman. ",
   },
   {
-    id: 6,
+    id: "6",
     q: "Apakah layanan Viapulsa bebas biaya admin?",
     a: "Iya, layanan Viapulsa bebas biaya admin.",
   },
   {
-    id: 7,
+    id: "7",
     q: "Berapa lama prosesnya?",
     a: "Proses pengiriman pulsa antara 5-10 menit dalam keadaan normal. Namun, proses akan terhambat apabila terjadi gangguan eksternal seperti gangguan bank dari pusat. Selain itu, proses juga dapat terhambat apabila nomor rekening yang di-input salah.",
   },
   {
-    id: 8,
+    id: "8",
     q: "Kenapa nomor tujuan transfer selalu berbeda?",
     a: "Setiap provider memiliki batas penerimaan pulsa. Hal inilah yang membuat nomor penerima Viapulsa selalu berbeda-beda. Selain itu, penggunaan nomor yang berbeda akan mempermudah proses pengiriman pulsa kamu kapan saja tanpa takut melewati limit.",
   },
   {
-    id: 9,
+    id: "9",
     q: "Bagaimana jika sudah terlanjur kirim nomor ke nomor sebelumnya?",
     a: "Segera hubungi customer care Viapulsa untuk dibantu pengecekan pulsanya. Untuk memperlancar proses ini, silakan siapkan bukti pengiriman pulsa lengkap dengan tanggal dan jam pengiriman.",
   },
@@ -384,43 +384,43 @@ export const pertanyaanPertanyaan = [
 // Comments
 export const comments = [
   {
-    id: 1,
+    id: "1",
     name: "Budi Santoso",
     gender: "men",
     body: "Aplikasi ini luar biasa! Ini memiliki segala yang saya butuhkan dan lebih. Saya sangat merekomendasikannya kepada siapa saja yang mencari aplikasi hebat.",
   },
   {
-    id: 2,
+    id: "2",
     name: "Sari Wijaya",
     gender: "women",
     body: "Saya sangat suka aplikasi ini! Sangat mudah digunakan dan memiliki semua fitur yang saya butuhkan. Saya pasti akan merekomendasikannya kepada teman-teman saya.",
   },
   {
-    id: 3,
+    id: "3",
     name: "Joko Susilo",
     gender: "men",
     body: "Aplikasi ini fantastis! Ini membantu saya tetap terorganisir dan terdepan. Saya pasti akan merekomendasikannya kepada siapa saja yang mencari aplikasi hebat.",
   },
   {
-    id: 4,
+    id: "4",
     name: "Ani Kusuma",
     gender: "women",
     body: "Saya tidak percaya betapa hebatnya aplikasi ini! Ini telah membuat hidup saya jauh lebih mudah. Saya pasti akan merekomendasikannya kepada siapa saja yang mencari aplikasi hebat.",
   },
   {
-    id: 5,
+    id: "5",
     name: "Hadi Pranoto",
     gender: "men",
     body: "Aplikasi ini yang terbaik! Ini memiliki segala yang saya butuhkan dan lebih. Saya pasti akan merekomendasikannya kepada siapa saja yang mencari aplikasi hebat.",
   },
   {
-    id: 6,
+    id: "6",
     name: "Dewi Lestari",
     gender: "women",
     body: '"Saya sangat senang menemukan aplikasi ini! Ini telah membuat hidup saya jauh lebih mudah. Saya pasti akan merekomendasikannya kepada siapa saja yang mencari aplikasi hebat."',
   },
   {
-    id: 7,
+    id: "7",
     name: "Agus Setiawan",
     gender: "men",
     body: '"Aplikasi ini luar biasa! Ini membantu saya tetap terorganisir dan terdepan. Saya pasti akan merekomendasikannya kepada siapa saja yang mencari aplikasi hebat."',

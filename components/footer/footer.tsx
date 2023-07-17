@@ -104,14 +104,15 @@ const FooterMenu = () => {
 
           <ul className="mt-4 flex flex-col space-y-2">
             {item.links?.map((subitem) => (
-              <Link
-                key={subitem.id}
-                href={subitem.href}
-                aria-label={subitem.label}
-                className="hover:text-accent-foreground"
-              >
-                {subitem.label}
-              </Link>
+              <li key={subitem.id}>
+                <Link
+                  href={subitem.href}
+                  aria-label={subitem.label}
+                  className="hover:text-accent-foreground"
+                >
+                  {subitem.label}
+                </Link>
+              </li>
             ))}
           </ul>
         </div>
